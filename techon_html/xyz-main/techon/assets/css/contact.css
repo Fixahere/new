@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.butt{
+    background-color:rgb(16, 48, 81);
+    color: white;
+}
+.p_green{
+   color:rgb(16, 48, 81);
+   font-weight: bold;
+}
+.h_yel{
+    color: rgb(7, 61, 115);
+}
+iframe{
+    height: 75vh;
+    filter: invert(0%);
+}

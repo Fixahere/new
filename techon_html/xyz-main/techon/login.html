@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/login.css">
+   <script src="assets/jquery-3.6.3.min.js"></script>
+  <script src="assets/js/login.js"></script>
+   
+  </head>
+  <body>
+    <!-- login form -->
+    <div class="container form_c">
+      <div class="container">
+        <div class="row mt-5 p-5">
+          <div class="col-lg-6 col-md--6 col-sm-6 p-5 bg-white linear px-5">
+            <!-- heading for login form -->
+            <div class="text-centre h1 text-light side_hl p-5" id="side_hl">
+              Good to see you again.
+            </div>
+            <!-- heading for signup form -->
+            <div class="text-centre h1 text-light side_hs p-5" id="side_hs">
+              Welcome to our website,
+              Please  signup to continue!
+            </div>
+
+
+
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 p-5 bg-white">
+            <div id="signin_form">
+              <div class="h2 text-center log"><b>Login</b></div>
+              <div class="h5 mt-5">Hey,hello</div>
+              <span class="info h6">enter the information you entered while registering.</span>
+
+              <div class="form-group mt-3">
+                <label for="" id="email_s" class="h6">Email</label>
+                <input type="email" class="form-control"  placeholder="enter your email address" id="get_email" />
+                <span id="alert_e"></span>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="" id="pass" class="h6">Password</label>
+                <input type="password" class="form-control"  placeholder="enter your passcode" id="get_pass" />
+                <span id="alert_p"></span>
+              </div>
+
+              <div class="row">
+                <div class="col-sm">
+                  <button class="btn px-lg-5 px-lg-5 px-sm-1" id="login" onclick="for_login()">Log in</button>
+                </div>
+                <span class="info_ask h6 d-flex"><div class="mr-2">Don't have an account?</div>
+                  <button class="btn" id="for_signup" onclick="sign_up()">Sign up</button></span>
+              </div>
+            </div>
+            <!-- signin ended -->
+
+            <!-- signup form starts -->
+            <div id="signup_form">
+              <div class="h2 text-center log"><b>Sign up</b></div>
+              <div class="h5 mt-5">Hey,hello</div>
+              <div class="h5 mt-3">Create your account.</div>
+
+              <div class="form-group mt-5">
+                <label for="" id="name" class="h6">Username</label>
+                <input type="text" class="form-control" placeholder="enter your username" id="get_name" />
+                <span id="alert_n"></span>
+              </div>
+              <div class="form-group mt-3">
+                <label for="" id="email_s" class="h6">Email</label>
+                <input type="email" class="form-control" placeholder="enter your email address" id="email_get" />
+                <span id="alert_em"></span>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="" id="pass" class="h6">Password</label>
+                <input type="password" class="form-control" placeholder="enter your passcode" id="passcode" />
+                <span id="alert_pas"></span>
+              </div>
+
+              <div class="row">
+                <div class="col-sm">
+                  <button class="btn" id="signup" onclick="for_signup()">Sign up</button>
+                </div>
+                <span class="info_ask h6 d-flex"><div class="mr-2">already have an account?</div>
+                  <button class="btn" id="signin">Sign in</button></span>
+                </div></div>
+              </div>
+              <!-- signup form end -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- login form end -->
+   
+  </body>
+</html>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+  <script src="jquery-3.6.3.min.js"></script>
+  <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js
+  "></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm " >
+ 
+    <a class="navbar-brand" href="#" style="float:left">
+      <!-- <img src="" alt="logo" style="width:40px;"> -->
+      <i class="logo h4">TiffinWala</i>
+    </a>
+
+    <div id="sec_nav" style="justify-content:centre">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#this">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Why us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#how">How it woks </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#plans">Our plans </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#non-veg-container"> Monthly menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+           Delivery area
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Karachi</a>
+            <a class="dropdown-item" href="#">Lahore</a>
+            <a class="dropdown-item" href="#">Multan</a>
+            <a class="dropdown-item" href="#">Sukkur</a>
+            <a class="dropdown-item" href="#">Islamabad</a>
+            <a class="dropdown-item" href="#">Quetta</a>
+            <a class="dropdown-item" href="#">Chiniot</a>
+            <a class="dropdown-item" href="#">Faisalabad</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story">Our story</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <!-- carosal   -->
+  <div id="caro"  data-ride="carousel" class="carousel slide" id="this">
+
+    <ul class="carousel-indicators">
+      <li data-target="#caro" data-slide-to="0" class="active"></li>
+      <li data-target="#caro" data-slide-to="1"></li>
+      <li data-target="#caro" data-slide-to="2"></li>
+      <li data-target="#caro" data-slide-to="3"></li>
+    </ul>
+    
+   
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+        <img src="images/spicy.jpg" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/sandwichd.jpg" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/desserts.jpg" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/spicy2.jpg">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#caro" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#caro" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!-- cards start -->
+  <div class="container">
+    <section id="vegies-container">
+    <h1 class="main-heading mt-3">Vegetable Dishes</h1>
+<div class="row" id="vegies">
+
+</div>
+</section>
+
+<section id="non-veg-container">
+    <h1 class="main-heading mt-3">Non-Vegetable Food</h1>
+<div class="row" id="non-veg">
+
+</div>
+</section>
+<section id="mix-food-container">
+    <h1 class="main-heading mt-3">Mix Food</h1>
+<div class="row" id="mix-food">
+
+</div>
+</section>
+<section id="sweet-container">
+    <h1 class="main-heading mt-3">Sweet Dishes</h1>
+<div class="row" id="sweet">
+
+</div>
+</section>
+<section id="special-container">
+    <h1 class="main-heading mt-3">Special Food For Patients</h1>
+<div class="row" id="special">
+
+</div>
+</section>
+<section id="healthy-container">
+    <h1 class="main-heading mt-3">Healthy Food</h1>
+<div class="row" id="healthy">
+
+</div>
+</section>
+
+</div>
+
+  <!-- cards end -->
+  <!-- login form -->
+  <div class="container form_c" id="login">
+    <div class="container">
+      <div class="row mt-5 p-5">
+        <div class="col-lg-6 col-md--6 col-sm-6 p-5 bg-white linear px-5">
+          <!-- heading for login form -->
+          <div class="text-centre h1 text-light side_hl p-5" id="side_hl">
+            Good to see you again.
+          </div>
+          <!-- heading for signup form -->
+          <div class="text-centre h1 text-light side_hs p-5" id="side_hs">
+            Welcome to our website,
+            Please  signup to continue!
+          </div>
+
+
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 p-5 bg-white">
+          <div id="signin_form">
+            <div class="h2 text-center log"><b>Login</b></div>
+            <div class="h5 mt-5">Hey,hello</div>
+            <span class="info h6">enter the information you entered while registering.</span>
+
+            <div class="form-group mt-3">
+              <label for="" id="email_s" class="h6">Email</label>
+              <input type="email" class="form-control"  placeholder="enter your email address" id="get_email" />
+              <span id="alert_e"></span>
+            </div>
+
+            <div class="form-group mt-3">
+              <label for="" id="pass" class="h6">Password</label>
+              <input type="password" class="form-control"  placeholder="enter your passcode" id="get_pass" />
+              <span id="alert_p"></span>
+            </div>
+
+            <div class="row">
+              <div class="col-sm">
+                <button class="btn px-lg-5 px-lg-5 px-sm-1" id="login" onclick="for_login()">Log in</button>
+              </div>
+              <span class="info_ask h6 d-flex"><div class="mr-2">Don't have an account?</div>
+                <button class="btn" id="for_signup" onclick="sign_up()">Sign up</button></span>
+            </div>
+          </div>
+          <!-- signin ended -->
+
+          <!-- signup form starts -->
+          <div id="signup_form">
+            <div class="h2 text-center log"><b>Sign up</b></div>
+            <div class="h5 mt-5">Hey,hello</div>
+            <div class="h5 mt-3">Create your account.</div>
+
+            <div class="form-group mt-5">
+              <label for="" id="name" class="h6">Username</label>
+              <input type="text" class="form-control" placeholder="enter your username" id="get_name" />
+              <span id="alert_n"></span>
+            </div>
+            <div class="form-group mt-3">
+              <label for="" id="email_s" class="h6">Email</label>
+              <input type="email" class="form-control" placeholder="enter your email address" id="email_get" />
+              <span id="alert_em"></span>
+            </div>
+
+            <div class="form-group mt-3">
+              <label for="" id="pass" class="h6">Password</label>
+              <input type="password" class="form-control" placeholder="enter your passcode" id="passcode" />
+              <span id="alert_pas"></span>
+            </div>
+
+            <div class="row">
+              <div class="col-sm">
+                <button class="btn" id="signup" onclick="for_signup()">Sign up</button>
+              </div>
+              <span class="info_ask h6 d-flex"><div class="mr-2">already have an account?</div>
+                <button class="btn" id="signin">Sign in</button></span>
+              </div></div>
+            </div>
+            <!-- signup form end -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- login form end -->
+<!-- feedback code start -->
+<div class="container">
+  <div class="row">
+  
+   <div class="col-lg-6 col-md mt-5">
+   <h1 class="h1 pt-5 h_yel">Contact us</h1>
+   <p class="p_green">Our friendly team would love to hear from you! :)</p>
+   <div class="mt-5">
+      <label for="" style=" color:rgb(16, 48, 81)"><b>First name</b></label>
+      <input type="text" id="f_name" placeholder="first name" class="form-control">
+      <span id="alert_fnam"></span>
+  </div>
+  <div class="form-group">
+      <label for="" style=" color:rgb(16, 48, 81)"><b>Last name</b></label>
+      <input type="text" id="l_name" placeholder="last name" class="form-control">
+      <span id="alert_lnam"></span>
+  </div>
+  
+    <div class="form-group mt-3">
+      <label for="" class="h6" style=" color:rgb(30, 70, 70)"><b>Email</b></label>
+      <input  class="form-control" placeholder="itanexample@gmail.com" id="get_email" />
+      <span id="alert_em"></span>
+    </div>
+  
+    <div class="form-group mt-3">
+      <label for="" class="h6" style=" color:rgb(30, 70, 70)"><b>Phone</b></label>
+      <input class="form-control" placeholder="03 xxxxxxxxx" id="phone" />
+      <span id="alert_phone"></span>
+    </div>
+    <div class="form-group">
+      <label for="" style=" color:rgb(30, 70, 70)"><b>Message</b></label>
+      <textarea name="" id="mess" cols="30" rows="6" class="form-control" placeholder="I would like to ask you..."></textarea>
+      <span id="alert_mes"></span>
+  </div>
+  <button class="btn butt" onclick="submit()">Send message</button>
+  </div>
+  <div class="col-lg-6 col-md p-lg-5 mt-5 p-sm-5 m-sm-0 map"><iframe class="pl-lg-5 pt-md-5 p-sm-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.179581948966!2d72.5881675581675!3d23.083944463680062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e838e686abc45%3A0x6b6c62d0f2f10117!2sBAKER&#39;S%20BITE!5e0!3m2!1sen!2s!4v1672241526104!5m2!1sen!2s"
+    width="120%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy=""></iframe>
+  </div>
+  </div>
+  </div>
+<!-- feedback codeend -->
+<div class="container feedback" id="feedback-container">
+  <div class="row justify-content-center">
+            <div class="col-md-5 feed_col">
+                      <div class="top">
+<div class="div1">
+<h3>Feedback Form</h3>
+</div>
+<div class="div2">
+<div class="name">
+  <label for="">Name</label>
+  <input type="text"  class="form-control">
+</div>
+<div class="email">
+  <label for="">Email</label>
+  <input type="email"  class="form-control">
+</div>
+<div class="message">
+  <label for="">Send your feedback</label>
+  <textarea name="" id="" cols="30" rows="10"  class="form-control"></textarea>
+
+</div>
+<div class="button btn btn-dark mt-3">Submit</div>
+</div>
+                      </div>
+            </div>
+  </div>
+
+</div>
+<!-- feedback c0odeend -->
+<!-- about start -->
+<div class="container p-5 mt-5 main_con text-center" id="about">
+
+  <h6 class="sp mt-5">Feash food Great Taste</h6>
+  <h1 class="h3">
+      Handmade With an Extra
+      <br> Pinch Of Love
+  </h1>
+</div>
+
+<h4 class="why text-center mt-3"><b>Why Choose Us ?</b></h4>
+<hr style="width: 50%;">
+
+<div class="container con_2 mt-4">
+  <div class="row">
+  <div class="item1 col-md-4 mt-2"><img src="assets/images/im3.jpg" alt=""></div>
+  <div class="item2 col-md-8 mt-4 text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Es
+      t dolorum dolores odit modi accusamus hg mollitia exercitatione
+       voluptates officiis. Necessitatibus velit rerum veniam commodi et n
+       umquam libero vero autem nisi<p>Lorem ipsum dolor sit amet, consectetur ad
+          ipisicing elit. Perspiciatis minus aliquam ducimus architecto, dolor laborum
+           quo sapiente asperiores odio vitae sequi unde esse quae quam in soluta, fuga ma
+           gnam pariatur?</p> </div></div>
+</div>
+
+
+<div class="container-fluid con_3">
+
+      <div class="container p-5">
+          <div class="row">
+<div class="col-md-3" id="plans">
+  <h3 class="h4 why ml-5"><b>Our Plans</b></h3>
+<ul class="unorder ml-1 mt-3">
+  <li>Lorem ipsum dolor sit amet constant
+      ectetur, adipisicing elit. Ipsa elig
+      endi incidunvel! Sint dolore inv</li>
+  <li class="mt-2">t placeat blanditiis, verita
+      tis, nesciunt consequuntur, nam obcaecati ap
+      eriam dolorem numquam dolores .</li>
+</ul>
+  
+</div>
+<div class="col-md-3 ml-5 mt-2" id="story"> <h3 class="h4 why ml-5"><b>Our Story</b></h3>
+  <ul class="unorder ml-1 mt-3">
+    <li>Lorem ipsum dolor sit amet constant
+        ectetur, adipisicing elit. Ipsa elig
+        endi incidunvel! Sint dolore inv</li>
+    <li class="mt-2">t placeat blanditiis, verita
+        tis, nesciunt consequuntur, nam obcaecati ap
+        eriam dolorem numquam dolores .</li>
+  </ul></div>
+<div class="col-md-6 mt-2" id="how">
+  <h3 class="h4 why ml-5"><b>How it Works</b></h3>
+  <ul class="unorder ml-1 mt-3">
+    <li>Lorem ipsum dolor sit amet constant
+        ectetur, adipisicing elit. Ipsa elig
+        endi incidunvel! Sint dolore inv</li>
+    <li class="mt-2">t placeat blanditiis, verita
+        tis, nesciunt consequuntur, nam obcaecati ap
+        eriam dolorem numquam dolores .</li>
+  </ul>
+</div>
+          </div>
+      </div>
+</div>
+
+
+<div class="container-fluid con-4 text-light p-5">
+  
+  
+  <footer>
+      <div class="row">
+          <div class="col-md-4 ml-5">
+           <i class="text-light h1">Tiffen Wala</i><br><br>
+          <i><img src="images/images/map-pin (1).svg" alt=""><span class="text-light ml-2">Karachi,Pakistan</span></i><br><br>
+          <i><img src="images/images/map-pin (1).svg" alt=""><span class="text-light ml-2">Karachi,Pakistan</span></i><br><br>
+          <i><img src="images/images/mail.svg" alt=""><span class="text-light ml-2">tiffenwala@gmail.com</span></i><br><br>
+          <i><img src="images/images/phone-call.svg" alt=""><span class="text-light ml-2">03129876378</span></i>
+      </div>
+          <div class="col-md-5">
+              <ul class="order text-justify">
+                  <p class="h3"><i>Categories</i></p><br>
+                  <li>Lorem ipsum dolor sit, amet co
+                      nsectetur <br>adipisicing elit. E
+                      ligendi, ipsa? Eveniet vol <br>adipisicinguptate
+                      s totam ducimus.</li><br>
+                  <li>Lorem ipsum dolor sit, amet co
+                      nsectetura <br>adipisicingpisicing elit. E
+                      ligendi, ipsa? Even <br>adipisicingiet voluptate
+                      s totam</li>
+              </ul>
+          </div>
+          <div class="col-md-5"> <ul class="order text-justify">
+              <p class="h3"><i>Information</i></p><br>
+              <li>Lorem ipsum dolor sit, amet co
+                  nsectetur <br>adipisicing elit. E
+                  ligendi, ipsa? Eveniet vol <br>adipisicinguptate
+                  s totam ducimus.</li><br>
+              <li>Lorem ipsum dolor sit, amet co
+                  nsectetura <br>adipisicingpisicing elit. E
+                  ligendi, ipsa? Even <br>adipisicingiet voluptate
+                  s totam</li>
+          </ul></div>
+          
+      </div>
+  </footer>
+  
+  </div>
+
+<!-- about end -->
+
+<script>
+  // first column products loop function
+  let row1 = $("#vegies");
+ let col1 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.vegetables, function (key, value) {
+             col1 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" height="250px" src="`
+                 + value.image + `">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row1.html(col1);
+     }
+ })
+   // second column products loop function
+   let row2 = $("#non-veg");
+ let col2 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.nonVegetables, function (key, value) {
+             col2 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" src="`
+                 + value.image + `" height="250px">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row2.html(col2);
+     }
+ })
+  // third column products loop function
+  let row3 = $("#mix-food");
+ let col3 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.mixFood, function (key, value) {
+             col3 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" height="250px" src="`
+                 + value.image + `">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row3.html(col3);
+     }
+ })
+  // fourth column products loop function
+  let row4 = $("#sweet");
+ let col4 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.sweetDishes, function (key, value) {
+             col4 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" height="250px" src="`
+                 + value.image + `">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row4.html(col4);
+     }
+ })
+  // five column products loop function
+  let row5 = $("#special");
+ let col5 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.specialFood, function (key, value) {
+             col5 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" height="250px" src="`
+                 + value.image + `">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row5.html(col5);
+     }
+ })
+     // six column products loop function
+     let row6 = $("#healthy");
+ let col6 = "";
+ $.ajax({
+     url: "/assets/data/products.json",
+     type: "get",
+     success: function (data) {
+         $.each(data.healthyFood, function (key, value) {
+             col6 += `
+           <div class="col-md-4 mt-4">
+         <div class="card">
+             <img class="card-img-top" height="250px" src="`
+                 + value.image + `">
+<div class="card-body">
+<h4 class="card-title">
+ `+ value.name + `
+
+</h4>
+<p class="card-text">
+ `+ value.detail + `
+
+</p>
+<h5 class="card-title">`+ value.price + `</h5>
+
+
+</div>
+             
+</div>
+</div>
+`
+         })
+         row6.html(col6);
+     }
+ })
+ 
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+:root{
+        --item_color: #6e7172;
+}
+.navbar{
+          background-color: white; 
+          position: fixed;      
+          z-index: 20;  
+          width: 100%;
+}
+.navbar-nav li a{
+          color: var(--item_color);
+}
+#sec_nav{display: flex;
+          justify-content: center;
+          margin: 0 auto;
+}
+.carousel-inner img {
+          width: 100%;
+          height: 700px;
+        }
+        .feedback{
+                    
+                height: 400px;
+      }
+      .feed_col{
+                
+                height: 500px;
+      }
+      .top{
+                
+                height: auto;
+                padding: 20px;
+      }
+      .div1{
+                background-color: rgb(16, 48, 81);
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+      }
+      .div2{ border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+                border: 1px solid rgb(16, 48, 81);
+                background-color: white;
+                height: auto;
+                padding: 20px;
+      }
+      /* log in css start*/
+      *{
+        margin: 0;
+        padding: 0;
+    }
+    :root{
+        --d_blue: rgb(16, 48, 81);
+        --white:white;
+    }
+    .linear{
+    background: linear-gradient(to right bottom,rgb(16, 48, 81),white);
+    }
+    #email_s{
+    color: rgb(12, 12, 95);
+    font-weight: bold;
+    }
+    .info{
+    font-size: 12px;
+    color: rgb(12, 12, 95);
+    }
+    #pass{
+    color: rgb(12, 12, 95);
+    font-weight: bold;
+    }
+    #login{
+    background: linear-gradient(to right bottom,rgb(16, 48, 81),white);
+    color:white;
+    }
+    .info_ask{
+    color: rgb(12, 12, 95); 
+    align-items: center;
+    
+    }
+    #sign_up{
+    background: linear-gradient(to right bottom,rgb(16, 48, 81),white);
+    color:white;
+    }
+    .side_hl{
+    background-color: rgba(210, 227, 248, 0.185);
+    display: none;
+    }
+    
+    .log{
+    background-image: linear-gradient(45deg, rgb(16, 48, 81), white,78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+        
+    
+    }
+    #sub_email{
+        border: none;
+        border-radius: 30px 30px;
+        background-color:rgba(233, 226, 226, 0.438);
+        max-width:fit-content!important;
+    }
+    #signin_form{
+        display: none;
+    }
+    #for_signup{
+        background: linear-gradient(to right bottom,rgb(16, 48, 81),white);
+    color:white;
+    }
+    #signup{
+        background: linear-gradient(to left bottom,rgb(16, 48, 81),white);
+    color:white;
+    }
+    #name{
+        color: rgb(12, 12, 95);
+    font-weight: bold;
+    }
+    #signin{
+        background: linear-gradient(to left bottom,rgb(16, 48, 81),white);
+    color:white;
+    }
+    .side_hs{
+        background-color: rgba(210, 227, 248, 0.185);
+    }
+    
+    
+      /* log in css end*/
+    /*  contact css start*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .butt{
+        background-color:rgb(16, 48, 81);
+        color: white;
+    }
+    .p_green{
+       color:rgb(16, 48, 81);
+       font-weight: bold;
+    }
+    .h_yel{
+        color: rgb(7, 61, 115);
+    }
+    iframe{
+        height: 75vh;
+        filter: invert(0%);
+    }
+    /*  contact css end*/
+    /* about  s*/
+    :root{
+        --d_blue: rgb(16, 48, 81);
+        --white:white;
+        --gray:rgb(222, 217, 217);
+        --l_blue:rgba(224, 241, 251, 0.756);
+    }
+
+    .main_con{
+        background-color: var(--d_blue);
+        color: var(--white);
+    }
+    .sp{
+        color: var(--gray);
+    }
+    
+    .s_sec{
+        background-color: var(--white);
+        margin-top: var(--white);
+        display: flex;
+    }
+
+    .why{
+        color: var(--d_blue);
+    }
+
+    .con_2{
+        display: flex;
+        height: 400px;
+    }
+  .item1 img{
+
+height: 200px;
+    }
+
+    .item2{
+width: 100%;
+    }
+
+    .con_3{
+        background-color: var(--l_blue);
+        
+    }
+   .con-4{
+  background-color: var(--d_blue);
+   }
+
+   .order{
+    list-style: none;
+   }
+    /* about  e*/
+    .main-heading{
+        text-align: center;
+    }
+    #feedback-container{
+        height: 600px;
+    }
+    .logo{
+        font-weight: 1000;
+    }

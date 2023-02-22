@@ -1,0 +1,32 @@
+{
+    "vegetables":[
+        {"name":"Gobi-Aloo","price":"Rs:600","image":"assets/images/gobi-aloo.jpg","category":"vegetable"},
+        {"name":"Besan Curry","price":"Rs:600","image":"assets/images/besan-curry.jpg","category":"vegetable"},
+        {"name":"Handmade Tomato Soup","price":"Rs:600","image":"assets/images/tomato-soup.jpg","category":"vegetable"}
+    ],
+    "nonVegetables":[
+        {"name":"Biryani","price":"Rs:600","image":"assets/images/biryani.jpg", "category":"non-vegetables"},
+        {"name":"Samosa","price":"Rs:600","image":"assets/images/samosa.webp","category":"non-vegetables"},
+        {"name":"Sandwich","price":"Rs:600","image":"assets/images/sandwich.jpg","category":"non-vegetables"}
+    ],
+    "mixFood":[
+        {"name":"Pizza","price":"Rs:600", "image":"assets/images/mix1.jpg","category":"mix-food"},
+        {"name":"Toast","price":"Rs:600","image":"assets/images/mix2.webp","category":"mix-food"},
+        {"name":"Barbeque","price":"Rs:600","image":"assets/images/mix3.jpg","category":"mix-food"}
+    ],
+    "sweetDishes":[
+        {"name":"Pancakes","price":"Rs:600","image":"assets/images/pancake.jpg", "category":"sweet-dishes"},
+        {"name":"Strawberry Dessert","price":"Rs:600","image":"assets/images/strawberry-dessert.jpg","category":"sweet-dishes"},
+        {"name":"Mousse","price":"Rs:600","image":"assets/images/mousse.jpg","category":"sweet-dishes"}
+    ],
+    "specialFood":[
+        {"name":"Hospital Meal 1","price":"Rs:600","image":"assets/images/hos1.jpg", "category":"special-food"},
+        {"name":"Hospital Meal 2","price":"Rs:600","image":"assets/images/hos2.jpg","category":"special-food"},
+        {"name":"Hospital Meal 3","price":"Rs:600","image":"assets/images/hos3.avif","category":"special-food"}
+    ],
+    "healthyFood":[
+        {"name":"Healthy Meal 1","price":"Rs:600","image":"assets/images/heal1.jpg", "category":"healthy-food"},
+        {"name":"Healthy Meal 2","price":"Rs:600","image":"assets/images/heal2.jpg","category":"healthy-food"},
+        {"name":"Healthy Meal 3","price":"Rs:600","image":"assets/images/heal3.jpg","category":"healthy-food"}
+    ]
+}
